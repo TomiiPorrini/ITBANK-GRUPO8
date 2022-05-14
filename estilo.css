@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #14279B;
+    color: white;
+}
+
+#titulo{
+    font-family: 'Gideon Roman', cursive;
+    font-size:150px;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/IMGJARDIN2.jpg);
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    background-position: left top;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****************  CUADRADO DE INGRESO  ****************/
+
+.principal{
+    padding-top: 50px;
+    padding-right: 50px;
+    float: right;
+    text-align: center;
+    /* PONER UN TIPO DE POSICION PARA QUE SE VAYA AJUSTANDO SEGUN EL TAMAÑO DEL DISP */
+    /* position:sticky; */
+}
+
+.caja{
+    background-color: #E6E6FA;
+    width: 400px;
+    height: 350px;
+}
+
+div fieldset h3{
+    background-color:#14279B;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div fieldset h5{
+    background-color:aqua;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+div fieldset h6{
+    padding: 40px;
+    display: inline;
+}
+
+#nuevo{
+    background-color:blanchedalmond;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+#viejo{
+    background-color:blanchedalmond;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.pie-de-cuadrado{
+    /* vertical-align:bottom; INTENTO DE MOVER TODO HACIA ABAJO */
+}
+
+/****************  PIE DE PAGINA  ****************/
+
+footer{
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+    color: #efefef;
+}
+/* EL DIV DE LA CAJA PRINC ESTA OCUPANDO MAS ESPACIO QUE EL QUE DEBERIA, POR ESO NO PUEDO PONERLO BIEN AL FOOTER. */
+.der{
+    text-align: right;
+} 
+/* @media (max-width:700px){
+
+} */
+
