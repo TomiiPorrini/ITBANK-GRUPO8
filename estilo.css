@@ -4,13 +4,11 @@
 }
 
 header{
+    text-decoration: none;
     background-color: #14279B;
     color: white;
-}
-
-#titulo{
     font-family: 'Gideon Roman', cursive;
-    font-size:150px;
+    font-size:100px;
     text-align: center;
 }
 
@@ -26,48 +24,59 @@ body{
 
 /****************  CUADRADO DE INGRESO  ****************/
 
-.principal{
+/* .principal{
     padding-top: 50px;
     padding-right: 50px;
     float: right;
     text-align: center;
     /* PONER UN TIPO DE POSICION PARA QUE SE VAYA AJUSTANDO SEGUN EL TAMAÑO DEL DISP */
     /* position:sticky; */
-}
+    /* background-color: white; }*/
 
 .caja{
+    margin-top: 40px;
+    margin-right: 40px;
+    float: right;
     background-color: #E6E6FA;
     width: 400px;
     height: 350px;
+    text-align: center;
 }
 
-div fieldset h3{
+fieldset h3{
+    
     background-color:#14279B;
     border-radius: 20px;
     padding: 10px;
 }
 
-div fieldset h5{
-    background-color:aqua;
+fieldset h5{
+    background-color:#ADD8E6;
     border-radius: 50px;
     padding: 10px;
 }
 
-div fieldset h6{
+fieldset h6{
     padding: 40px;
     display: inline;
 }
 
 #nuevo{
-    background-color:blanchedalmond;
+    color: #0C084C;
+    background-color:#F0EBCC;
     border-radius: 50px;
     padding: 5px;
 }
 
 #viejo{
-    background-color:blanchedalmond;
+    color: #0C084C;
+    background-color:#F0EBCC;
     border-radius: 50px;
     padding: 5px;
+}
+
+.appstore, .playstore{
+    width: 150px;
 }
 
 .pie-de-cuadrado{
@@ -77,7 +86,8 @@ div fieldset h6{
 /****************  PIE DE PAGINA  ****************/
 
 footer{
-    height: 3rem;
+    margin: 0;
+    height: 2rem;
     width: 100%;
     background-color: black;
     color: #efefef;
@@ -86,7 +96,7 @@ footer{
 .der{
     text-align: right;
 } 
-/* @media (max-width:700px){
+@media (max-width:700px){
 
-} */
+} 
 
