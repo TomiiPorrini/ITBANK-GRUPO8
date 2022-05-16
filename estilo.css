@@ -70,25 +70,38 @@ fieldset h5{
 }
 
 fieldset h6{
-    padding: 40px;
     display: inline;
+    text-decoration: none;
 }
 
 #nuevo{
+    padding: 5px;
     text-decoration: none;
     color: #0C084C;
     background-color:#F0EBCC;
     border-radius: 50px;
-    padding: 5px;
+}
+
+#nuevo:hover{
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 #viejo{
+    padding: 5px;
     text-decoration: none;
     color: #0C084C;
     background-color:#F0EBCC;
     border-radius: 50px;
-    padding: 5px;
 }
+
+#viejo:hover{
+    color: red;
+    cursor: pointer;
+    font-size: 14px;
+}
+
 /* estilos de imagenes */
 .appstore, .playstore{
     max-width: 150px;
@@ -99,9 +112,9 @@ fieldset h6{
 
 /* final del cuadro principal */
 
-.pie-de-cuadrado{
-    /* no puedo colocarlo en la parte de abajo del cuadro. */
-}
+/* .pie-de-cuadrado{
+     no puedo colocarlo en la parte de abajo del cuadro. 
+} */
 
 /****************  PIE DE PAGINA  ****************/
 
